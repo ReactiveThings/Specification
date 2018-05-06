@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Paweł Milka</Authors>
+    <Company>Reactive Things</Company>
+    <Product>ReactiveThings.Specification</Product>
+    <RepositoryUrl></RepositoryUrl>
+    <PackageProjectUrl>https://github.com/ReactiveThings/Specification</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/ReactiveThings/Specification/blob/master/LICENSE</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\ReactiveThings.Specification.EF\Extensions.cs" Link="Extensions.cs" />
+    <Compile Include="..\ReactiveThings.Specification.EF\PropertyAllSpecification.cs" Link="PropertyAllSpecification.cs" />
+    <Compile Include="..\ReactiveThings.Specification.EF\PropertyAnySpecification.cs" Link="PropertyAnySpecification.cs" />
+    <Compile Include="..\ReactiveThings.Specification.EF\PropertySpecification.cs" Link="PropertySpecification.cs" />
+    <Compile Include="..\ReactiveThings.Specification.EF\SpecificationBuilder.cs" Link="SpecificationBuilder.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LinqKit.Microsoft.EntityFrameworkCore" Version="1.1.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReactiveThings.Specification\ReactiveThings.Specification.csproj" />
+  </ItemGroup>
+
+</Project>
