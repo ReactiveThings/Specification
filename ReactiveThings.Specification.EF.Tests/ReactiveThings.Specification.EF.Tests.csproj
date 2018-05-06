@@ -98,7 +98,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ReactiveThings.Specification.EF\ReactiveThings.Specification.EF.csproj">
-      <Project>{c91bacf1-a71d-40f5-8815-cd8916781442}</Project>
+      <Project>{924a491f-3695-4401-89dc-0665d3f359fe}</Project>
       <Name>ReactiveThings.Specification.EF</Name>
     </ProjectReference>
     <ProjectReference Include="..\ReactiveThings.Specification\ReactiveThings.Specification.csproj">

@@ -72,10 +72,6 @@
     <Compile Include="WhenPropertySpecification.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ReactiveThings.Specification.EF\ReactiveThings.Specification.EF.csproj">
-      <Project>{C91BACF1-A71D-40F5-8815-CD8916781442}</Project>
-      <Name>ReactiveThings.Specification.EF</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ReactiveThings.Specification\ReactiveThings.Specification.csproj">
       <Project>{a965df02-0675-4365-b8b1-4ad3151b4c8d}</Project>
       <Name>ReactiveThings.Specification</Name>
